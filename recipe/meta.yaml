@@ -1,13 +1,13 @@
 {% set name = "lazy-model" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lazy-model-{{ version }}.tar.gz
-  sha256: 57c0e91e171530c4fca7aebc3ac05a163a85cddd941bf7527cc46c0ddafca47c
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lazy-model-{{ version }}.tar.gz
+  sha256: e425a189897dc926cc79af196a7cb385d1fd3ac7a7bccb4436fc93661f63b811
 
 build:
   noarch: python
