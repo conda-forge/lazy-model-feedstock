@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lazy-model-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lazy-model-{{ version }}.tar.gz
   sha256: a851d85d0b518b0b9c8e626bbee0feb0494c0e0cb5636550637f032dbbf9c55f
 
 build:
